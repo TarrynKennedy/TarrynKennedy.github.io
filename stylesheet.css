@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+}
+
+body {
+    font-family: Quattrocento, serif;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    color:darkslategray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 2rem;
+    margin-left: auto;
+}
+
+.navigation-item {
+    margin-left: 1rem;
+}
+
+.photo-portrait {
+    width: 350px;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-text-container {
+    margin-right: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
